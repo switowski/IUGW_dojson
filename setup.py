@@ -14,7 +14,7 @@ setup(name='IUGW_dojson',
       zip_safe=False,
       entry_points={
             'dojson.contrib.marc21': [
-                  'IUGW_bd9xx = IUGW_dojson.fields.default.bd9xx',
+                  'IUGW_bd9xx = IUGW_dojson.fields.bd9xx',
             ],
       },
       )
